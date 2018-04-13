@@ -1,0 +1,158 @@
+$mapping = '{
+  "mappings": {
+    "evidance-education": {
+		"properties": {
+			"category_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"UGC_contents": {
+		"properties": {
+			"activity_tags": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"UGC_contents": {
+		"properties": {
+			"activity_tags": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"fundraising": {
+		"properties": {
+			"fundraising_category_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"media-social": {
+		"properties": {
+			"social_category_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"news-meeting": {
+		"properties": {
+			"news_place_type_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"people": {
+		"properties": {
+			"person_type_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"place": {
+		"properties": {
+			"place_type_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"photo": {
+		"properties": {
+			"photo_category_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"website": {
+		"properties": {
+			"website_category_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    },
+	"video-visual": {
+		"properties": {
+			"video_category_slug": {
+				"type": "string",
+				"index": "analyzed",
+				"fields": {
+					"slug": {
+					"type": "string",
+					"index": "not_analyzed"
+					}
+				}
+			}
+		}
+    }
+  }
+}';
